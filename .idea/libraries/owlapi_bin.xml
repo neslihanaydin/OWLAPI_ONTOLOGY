@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="owlapi-bin">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/owlapi-3.1.0/owlapi-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#"
+     xml:base="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#icerir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#icerir">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#oynar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#oynar">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#yazar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#yazar">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Senarist"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#yonetir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#yonetir">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Yonetmen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#bolum_adi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#bolum_adi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#bolum_numarasi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#bolum_numarasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#isim -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#isim"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#sezon_numarasi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#sezon_numarasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#soyisim -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#soyisim"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Basrol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Basrol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#DevamliOyuncu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#DevamliOyuncu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Figuran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Figuran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Kisi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Kisi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#KonukOyuncu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#KonukOyuncu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Kisi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Senarist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Senarist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Kisi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#YardimciYonetmen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#YardimciYonetmen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Yonetmen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Yonetmen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Yonetmen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Kisi"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+        <bolum_adi>Pilot</bolum_adi>
+        <bolum_numarasi>1</bolum_numarasi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+        <bolum_numarasi>2</bolum_numarasi>
+        <bolum_adi>Wendigo</bolum_adi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum21">
+        <sezon_numarasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</sezon_numarasi>
+        <bolum_numarasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</bolum_numarasi>
+        <bolum_adi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salvation</bolum_adi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum3">
+        <sezon_numarasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</sezon_numarasi>
+        <bolum_numarasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</bolum_numarasi>
+        <bolum_adi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bolum 3</bolum_adi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#KonukOyuncu1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#KonukOyuncu1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#KonukOyuncu"/>
+        <soyisim>Palicki</soyisim>
+        <isim>Adrianne</isim>
+        <oynar rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Basrol"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#oynar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+            </owl:Restriction>
+        </rdf:type>
+        <soyisim>Padalecki</soyisim>
+        <isim>Jared</isim>
+        <oynar rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum1"/>
+        <oynar rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Basrol"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#oynar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+            </owl:Restriction>
+        </rdf:type>
+        <soyisim>Ackles</soyisim>
+        <isim>Jensen</isim>
+        <oynar rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum1"/>
+        <oynar rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Oyuncu3">
+        <isim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gamble</isim>
+        <soyisim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manning</soyisim>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Senarist1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Senarist1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Senarist"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#yazar"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isim>Robert</isim>
+        <soyisim>Singer</soyisim>
+        <yazar rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon"/>
+        <sezon_numarasi>1</sezon_numarasi>
+        <icerir rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum1"/>
+        <icerir rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon2">
+        <sezon_numarasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</sezon_numarasi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#YardimciYonetmen1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#YardimciYonetmen1">
+        <isim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim</isim>
+        <soyisim rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manner</soyisim>
+        <yonetir rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Yonetmen1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Yonetmen1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Yonetmen"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#yonetir"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Bolum"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isim>Eric</isim>
+        <soyisim>Kripke</soyisim>
+        <yonetir rdf:resource="http://www.semanticweb.org/neslihan/ontologies/2021/5/anlamsalagodevi#Sezon1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.1592) http://owlapi.sourceforge.net -->
+
